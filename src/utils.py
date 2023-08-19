@@ -1,5 +1,5 @@
-import argparse
 from datetime import datetime
+import argparse
 from sqlalchemy import create_engine
 
 

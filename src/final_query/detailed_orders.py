@@ -1,7 +1,8 @@
+import logging
 import os
 import pandas as pd
-import logging
 from src.utils import create_db_engine
+
 
 # Configure the logging system
 logging.basicConfig(level=logging.INFO)
@@ -20,8 +21,8 @@ def join_orders_and_order_details_to_csv():
         dest_engine = create_db_engine(**dest_db_config)
 
         # Read query from file
-        with open("queries/final_query.sql", "r") as file:
-            query = file.read()
+        with open(os.path.join("queries", "final_query.sql"), "r") as f:
+            query = f.read()
 
         # Execute the query and fetch the result into a pandas DataFrame
         result_df = pd.read_sql(query, dest_engine)

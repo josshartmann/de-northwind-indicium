@@ -1,9 +1,8 @@
-import os
 import logging
+import os
 import pandas as pd
-
+from src.utils import create_db_engine, parse_date_argument
 from .utils import reset_database, add_constraints
-from src.utils import parse_date_argument, create_db_engine
 
 
 # Configure the logging system
@@ -31,7 +30,7 @@ def load_to_postgres(input_date):
         }
         dest_engine = create_db_engine(**dest_db_config)
 
-        # Drop existing tables and create new ones in the destination PostgreSQL database.
+        # Drop existing tables and create new ones in the destination PostgreSQL database
         reset_database(dest_engine)
 
         # List of table names to load
@@ -80,6 +79,8 @@ def load_to_postgres(input_date):
 
         # Add constraints to the destination PostgreSQL database
         add_constraints(dest_engine)
+
+        return True
 
     except Exception as e:
         logging.error(f"Error loading data to PostgreSQL: {str(e)}")

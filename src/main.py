@@ -1,10 +1,9 @@
+import logging
 import sys
 from src.step1.extract import extract_from_csv, extract_from_postgres
 from src.step2.transform_load import load_to_postgres
-
-import logging
-
 from src.utils import parse_date_argument
+
 
 # Configure the logging system
 logging.basicConfig(level=logging.INFO)
