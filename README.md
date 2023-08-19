@@ -92,7 +92,7 @@ This command will execute a query that combines orders and their details, showin
 
 ## ETL Process Flowchart
 
-![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/ea66638f-70c8-40f6-bffa-ad79ee45e1e5)
+![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/5ddc5108-c6ab-48b8-83cb-c7cee8f8658d)
 
 ## Output
 
@@ -104,7 +104,7 @@ This command will execute a query that combines orders and their details, showin
 
 The following Entity-Relationship Diagram (ERD) represents the structure of the final database, which is the result of the ETL process. This diagram was exported from PgAdmin, providing a visual overview of the relationships between different entities and their attributes.
 
-![erd](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/eab4fdfd-8c1d-4d8b-80b8-8e7372a210f2)
+![erd](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/f2691684-0bd8-4fcc-bdb1-a05c06623576)
 
 ## Troubleshooting
 
