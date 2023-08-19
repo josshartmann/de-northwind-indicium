@@ -78,13 +78,13 @@ This command will execute a query that combines orders and their details, showin
 
 ## ETL Process Flowchart
 
-![ETL Process](https://ibb.co/RbhZGfj)
+![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/da6d3c2a-633a-463d-8fa2-ffde8663c311)
 
 ## Entity-Relationship Diagram (ERD)
 
 The following Entity-Relationship Diagram (ERD) represents the structure of the final database, which is the result of the ETL process. This diagram was exported from PgAdmin, providing a visual overview of the relationships between different entities and their attributes.
 
-![ETL Process](https://ibb.co/BBmDwpK)
+![erd](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/eab4fdfd-8c1d-4d8b-80b8-8e7372a210f2)
 
 ## Troubleshooting
 
