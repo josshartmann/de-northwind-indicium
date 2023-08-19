@@ -78,7 +78,7 @@ This command will execute a query that combines orders and their details, showin
 
 ## ETL Process Flowchart
 
-![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/da6d3c2a-633a-463d-8fa2-ffde8663c311)
+![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/ea66638f-70c8-40f6-bffa-ad79ee45e1e5)
 
 ## Entity-Relationship Diagram (ERD)
 
