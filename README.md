@@ -106,15 +106,6 @@ The following Entity-Relationship Diagram (ERD) represents the structure of the 
 
 ![erd](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/f2691684-0bd8-4fcc-bdb1-a05c06623576)
 
-## Troubleshooting
-
-- Ensure your PostgreSQL databases are properly configured in `docker-compose.yml`.
-- If you encounter dependency issues, refer to `requirements.txt` for required packages.
-
-## Acknowledgements
-
-This project is based on the Northwind database schema.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
