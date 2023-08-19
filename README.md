@@ -8,6 +8,20 @@ I have chosen Python as the primary programming language for this ETL pipeline d
 
 For the destination database, I have opted for PostgreSQL. This choice is rooted in my familiarity with PostgreSQL and the fact that it was also chosen as the source database. Using PostgreSQL as the destination database maintains consistency throughout the ETL process and simplifies the database management aspects of the project.
 
+## Project Structure
+
+The project is structured as follows:
+
+- `data/`: Contains data files and outputs.
+- `queries/`: Contains SQL query files.
+- `src/`: Contains the source code for the ETL pipeline.
+  - `step1/`: Code for the extraction step.
+  - `step2/`: Code for the transformation and loading step.
+  - `final_query/`: Code for the final query step.
+- `docker-compose.yml`: Docker Compose configuration for PostgreSQL databases.
+- `requirements.txt`: List of project dependencies.
+- `README.md`: Project documentation.
+
 ## Setup
 
 1. Clone the repository.
