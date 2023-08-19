@@ -90,15 +90,15 @@ python -m src.final_query.detailed_orders
 
 This command will execute a query that combines orders and their details, showing the order information along with the associated details from the provided CSV files. The data will be exported to a .csv file on data/detailed_orders.
 
+## ETL Process Flowchart
+
+![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/ea66638f-70c8-40f6-bffa-ad79ee45e1e5)
+
 ## Output
 
 - Extracted data is stored in CSV files under the `data` folder.
 - Transformed data is loaded into the PostgreSQL database.
 - Logs are generated in the project root.
-
-## ETL Process Flowchart
-
-![etl](https://github.com/josshartmann/de-northwind-indicium/assets/52213416/ea66638f-70c8-40f6-bffa-ad79ee45e1e5)
 
 ## Entity-Relationship Diagram (ERD)
 
