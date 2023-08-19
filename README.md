@@ -2,6 +2,12 @@
 
 This project demonstrates an ETL (Extract, Transform, Load) pipeline to extract data from various sources, transform it, and load it into a PostgreSQL database. The data is sourced from CSV files and a PostgreSQL database schema representing the Northwind database.
 
+## Why Python and PostgreSQL?
+
+I have chosen Python as the primary programming language for this ETL pipeline due to its versatility and powerful libraries for data manipulation. Python provides us with the tools needed to efficiently handle and process data throughout the pipeline.
+
+For the destination database, I have opted for PostgreSQL. This choice is rooted in my familiarity with PostgreSQL and the fact that it was also chosen as the source database. Using PostgreSQL as the destination database maintains consistency throughout the ETL process and simplifies the database management aspects of the project.
+
 ## Setup
 
 1. Clone the repository.
@@ -12,7 +18,7 @@ This project demonstrates an ETL (Extract, Transform, Load) pipeline to extract 
 docker-compose up
 ```
 
-This will launch two PostgreSQL databases: one for the source and another one for the destination. I have chosen PostgreSQL as the destination database due to its familiarity and as a continuation of the choice made for the source database.
+This will launch two PostgreSQL databases: one for the source and another one for the destination.
 
 3. Create a virtual environment using the following commands (optional but recommended):
 
