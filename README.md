@@ -28,7 +28,7 @@ source venv/bin/activate # For Linux/Mac
 venv\Scripts\activate # For Windows
 ```
 
-3. Install project dependencies using the following command:
+4. Install project dependencies using the following command:
 
 ```
 pip install -r requirements.txt
