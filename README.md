@@ -24,7 +24,11 @@ The project is structured as follows:
 
 ## Setup
 
-1. Clone the repository.
+1. Clone the repository:
+
+```
+git clone https://github.com/josshartmann/de-northwind-indicium.git
+```
 
 2. Start by setting up PostgreSQL databases using Docker Compose:
 
