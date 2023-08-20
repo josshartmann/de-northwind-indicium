@@ -1,6 +1,6 @@
 # Northwind ETL Pipeline
 
-This project demonstrates an ETL (Extract, Transform, Load) pipeline to extract data from various sources, transform it, and load it into a PostgreSQL database. The data is sourced from CSV files and a PostgreSQL database schema representing the Northwind database.
+This project demonstrates an ETL (Extract, Transform, Load) pipeline to extract data from various sources, transform it, and load it into a PostgreSQL database. The data is sourced from CSV files and a PostgreSQL database schema representing the Northwind database. It was developed as a code challenge for Indicium. You can find more details about the challenge and the project repository at [https://github.com/techindicium/code-challenge](https://github.com/techindicium/code-challenge).
 
 ## Why Python and PostgreSQL?
 
