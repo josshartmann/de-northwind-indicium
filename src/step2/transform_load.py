@@ -77,6 +77,8 @@ def load_to_postgres(input_date):
                     f"Error loading data for table {table_name}: No data found for {input_date}."
                 )
 
+                return False
+
         # Add constraints to the destination PostgreSQL database
         add_constraints(dest_engine)
 
