@@ -30,7 +30,7 @@ The project is structured as follows:
 git clone https://github.com/josshartmann/de-northwind-indicium.git
 ```
 
-2. Start by setting up PostgreSQL databases using Docker Compose:
+2. Start by setting up PostgreSQL databases using Docker Compose. To ensure a smooth setup, please make sure you are in the root directory of the project before running the following command. Also, ensure that the PostgreSQL port (default: 5432) is available:
 
 ```
 docker-compose up
